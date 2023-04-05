@@ -1,0 +1,172 @@
+body{
+  overflow-y: scroll
+}
+.first-con{
+  width:100%;
+  height:465px;
+  background-color: rgb(152,53,255);
+}
+.first-con .sidec-logo{
+  width: 200px;
+  height: 200px;
+  margin: 14% 40%;
+}
+.second-con{
+  width: 100%;
+  height:25%;
+  background-color: #fff;
+}
+.second-con .sidec-btn{
+  margin: 15px 40%;
+  height: 45px;
+  width: 250px;
+  background-color: rgb(152,53,255);
+  outline: none;
+  border: none;
+  color: #fff;
+}
+.sidec-btn a{
+  text-decoration: none;
+  color: #fff;
+}
+.sidec-btn:hover{
+  background-color: rgba(152,53,255, .8);
+  outline: none;
+  border: none;
+  color: #fff;
+}
+
+form .sidec-btn{
+  margin: 15px 20%;
+  height: 45px;
+  width: 250px;
+  background-color: rgb(152,53,255);
+  outline: none;
+  border: none;
+  color: #fff;
+}
+
+form .sidec-btn:hover{
+  background-color: rgba(152,53,255, .7);
+  outline: none;
+  border: none;
+  color: #fff;
+}
+form p a, form p a:hover{
+  color: rgb(152,53,255)
+}
+#floatingInput:focus,#floatingPassword:focus{
+  border: 2px solid rgb(152,53,255)!important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.sidec-icons{
+  margin-left: 70px;
+  padding:10px 10px;
+  background-color: rgb(152,53,255);
+  color: #fff;
+  border-radius: 20px;
+  height: 40px;
+  font-size: 20px;
+  width: 40px
+}
+
+.sidec-icons:hover{
+  color: rgb(152,53,255);
+  background-color: #fff;
+  font-size: 20px;
+}
+
+@media (max-width:1000px)
+  {body{
+    background: content-box;
+  }
+    .first-con{
+    width:100%;
+    height:300px;
+  }
+  .first-con .sidec-logo{
+    width: 50px;
+    height: 50px;
+  }
+  .second-con{
+    width:100%;
+    height:50px;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+  }
+  .sidec-btn{
+    height: 25px;
+    width: 100px !important;
+    background-color: rgb(152,53,255);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    margin-left:100px !important;
+    margin-right:50px !important;
+  }
+  .sidec-btn:hover{
+    background-color: rgba(152,53,255, .7);
+    outline: none;
+    border: none;
+    color: #fff;
+  }
+  .sidec-icons{
+    margin-left: 40px;
+    padding:5px 5px;
+    background-color: rgb(152,53,255);
+    color: #fff;
+    border-radius: 20px;
+    height: 30px;
+    font-size: 20px;
+    width: 30px
+  }
+}
+
+/* Test.html */
+/* .circle-drops{
+  margin-left: 50px;
+}
+
+.test-demo{} */
+
+.navbar-toggler{
+  background-color:transparent;
+  border:1px solid rgb(152,53,255) !important;
+}
+.sidec-toggler-icon{
+  color: rgb(152,53,255) !important;
+  font-size: 30px
+}
+
+.navbar-toggler:hover{
+  background-color:rgb(152,53,255);
+  border:1px solid rgb(152,53,255) !important;
+  box-shadow: none !important
+}
+.sidec-toggler-icon:hover{
+  color: #fff !important;
+  font-size: 30px
+}
+
+main .sidec-btn{
+  margin: 15px 20%;
+  height: 45px;
+  width: 250px;
+  background-color: rgb(152,53,255);
+  outline: none;
+  border: none;
+  color: #fff;
+}
+.sidec-nav{
+  background-color: rgb(152,53,255);
+}
+@media (min-width:768px){
+  .navbar-expand-lg{
+    display: none;
+  }
+  
+}
