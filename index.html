@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./assests/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assests/css/index.css">
+    <link rel="stylesheet" href="./assests/boxicons/css/boxicons.min.css">
+</head>
+
+<body>
+
+    <div class="first-con">
+        <img src="./assests/images/sidec-2.jpg" alt="" class="sidec-logo">
+    </div>
+    <div class="second-con">
+        <button class="btn sidec-btn">
+            <a href="#sidec-signin" data-bs-toggle="modal"> Get Started</a>
+        </button>
+    </div>
+    <div class="modal fade modal-signin py-5" aria-hidden="true" tabindex="-1" role="dialog" id="sidec-signin">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content rounded-4 shadow">
+                <div class="modal-header p-5 pb-4 border-bottom-0">
+                    <img src="./assests/images/sidec-4.jpg" alt="" width="100px" height="100px">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" id="floatingInput" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body p-5 pt-0">
+                    <form class="">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">First Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Last Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="tel" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Phone Number</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <button class="btn sidec-btn" type="submit">Sign up</button>
+                        <p class="text-muted">By clicking Sign up, you agree to the <a href="#">terms of use</a>.</p>
+                        <p class="">Already have an account <a href="#sidec-login" data-bs-toggle="modal">Log in</a></p>
+                        <hr class="my-4">
+                        <i class="bx bxl-twitter sidec-icons"></i><i class="bx bxl-facebook sidec-icons"></i><i class="bx bxl-instagram sidec-icons"></i>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-sheet fade py-5" tabindex="-1" role="dialog" id="sidec-login">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content rounded-4 shadow">
+                <div class="modal-header p-5 pb-4 border-bottom-0">
+                    <img src="./assests/images/sidec-3.jpg" alt="" width="200px" height="200px">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" id="floatingInput" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body p-5 pt-0">
+                    <form class="">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <button class="btn sidec-btn" type="submit">Log in</button>
+                        <p class="">Don't have an account <a href="#sidec-signin" data-bs-toggle="modal">Sign in</a></p>
+                        <hr class="my-4">
+                        <i class="bx bxl-twitter sidec-icons"></i><i class="bx bxl-facebook sidec-icons"></i><i class="bx bxl-instagram sidec-icons"></i>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap align-items-center py-3 my-4 border-top">
+            <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <img src="./assests/images/sidec-3.jpg" width="70px" height="70px" alt="">
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Sidec </span>
+        </footer>
+    </div>
+
+    <script src="./assests/js/bootstrap.min.js"></script>
+</body>
+
+</html>
